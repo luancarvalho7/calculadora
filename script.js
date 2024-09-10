@@ -14,7 +14,7 @@ function calculateCosts() {
 
     // Whisper and TTS check
     const audioInput = document.getElementById('audioInput').checked ? 0.006 : 0;
-    const ttsEnabled = document.getElementById('ttsEnabled').checked ? 0.0045 : 0;
+    const ttsEnabled = document.getElementById('ttsEnabled').checked ? 0.0495 : 0;
 
     const totalPerguntasMes = numPerguntas * 30;
 
